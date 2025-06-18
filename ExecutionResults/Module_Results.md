@@ -147,7 +147,7 @@
 **Result:** FAIL  
 **Actual:** Upload button is **enabled even before** any file is selected, allowing users to click it without selecting a file. No error message is shown.  
 ![Screenshot](/TheInternetTesting/ExecutionResults/Screenshots/FU_15_fail.png)  
-**End Time:** 2025-06-18 12:27  
+**End Time:** 2025-06-18 12:25  
 **Environment:** Linux 22.04 LTS / Chrome 137.0.7151.103
 
 ---
