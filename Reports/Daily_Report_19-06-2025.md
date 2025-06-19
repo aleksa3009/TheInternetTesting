@@ -6,7 +6,7 @@
   - 3 FAIL (screenshots saved in `ExecutionResults/screenshots/`)
 - Performed 45 minutes of exploratory testing
 - Found 3 additional unexpected behaviors
-- Logged 3 bugs in GitHub Issues (`#6`, `#7`, `#8`)
+- Logged 3 bugs in GitHub Issues (`#7`, `#8`, `#9`)
 
 ## Environment:
 - **OS:** Linux Ubuntu 22.04 LTS  
@@ -34,7 +34,7 @@
    - *Recommendation:* Improve responsive layout and spacing for confirmation message.
 
 ## Issues Logged:
-- GitHub Issue IDs: `#6`, `#7`, `#8`
+- GitHub Issue IDs: `#7`, `#8`, `#9`
 
 ## Next Steps:
 - Write test cases for **Dynamic Controls** and and **Checkboxes** 
