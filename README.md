@@ -34,11 +34,13 @@ TheInternetTesting/
 |   └── 
 ├── TestData/                   # Files used in File Upload tests
 │   ├── small.txt
+|   ├── aaaaaaaaaaaaaaaaaaaaaaa...txt
+│   ├── čšđč.txt
 │   ├── image.jpg
 │   ├── sample.pdf
 │   ├── 5MB.zip
 │   ├── 6MB.zip
-│   ├── 10MB.zip
+│   ├── 10MB.zip 
 │   └── dangerous.exe
 ├── ExecutionResults/           # Execution logs and evidence
 │   ├── Module_Results_File_Upload_Tests.md
