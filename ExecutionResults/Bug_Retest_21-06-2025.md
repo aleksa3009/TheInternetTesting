@@ -89,3 +89,27 @@ Re-tested all previously logged bugs in both Chrome (137.0.7151.119) and Firefox
 - **Comment:** Input accepts keystrokes prematurely before enable confirmation.  
 
 ---
+
+### Bug ID: #14 – CM_04: [BUG] Unexpected alert appears when clicking outside hotspot (Chrome)
+- **Retested in Chrome 138.0.7204.100**  
+- **Status:** Fixed  
+- **Comment:** Unexepected alert does not appear, functionality works as intended
+
+---
+
+### Bug ID: #15 –  BI_03: [BUG] Broken image lacks alt text after reload (Chrome)
+- **Retested in Chrome 138.0.7204.100**  
+- **Status:** Still reproducible
+- **Comment:** The second broken image still shows a placeholder icon and has an empty alt attribute.
+---
+
+### Bug ID: #16 – BI_03: [BUG] Broken image lacks alt text after reload (Mozilla)
+- **Retested on Firefox 140.0.4** 
+- **Status:** Still reproducible
+- **Comment:** The second broken image still shows a placeholder icon and has an empty alt attribute.
+---
+
+### Bug ID: #17 – CM_04: [BUG] Unexpected alert appears when clicking outside hotspot (Mozilla)
+- **Retested on Firefox 140.0.4**  
+- **Status:** Fixed  
+- **Comment:** Unexepected alert does not appear, functionality works as intended.
