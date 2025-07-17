@@ -3,7 +3,7 @@
 ## Activities:
 - Executed 15 File Upload test cases on **Firefox**
   - 12 PASS  
-  - 3 FAIL (screenshots saved in `ExecutionResults/screenshots/`)
+  - 3 FAIL (screenshots saved in `ExecutionResults/Screenshots/`)
 - Performed 45 minutes of exploratory testing
 - Found 3 additional unexpected behaviors
 - Logged 3 bugs in GitHub Issues (`#7`, `#8`, `#9`)
