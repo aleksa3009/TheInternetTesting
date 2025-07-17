@@ -99,38 +99,43 @@ The primary objectives of this test plan are to:
 
 ---
 
-## 7. Environment and Tools
+## 7. 🛠️ Environment and Tools
+
 **Hardware & OS:** Ubuntu 22.04. LTS
 **Browsers:** Google Chrome (137.0.7151.103), Mozilla Firefox (139.0.4)
 **Tools:**
-- Test Case Management: TestRail
-- Defect Tracking: GitHub Issues
-- Editor: Visual Studio Code (VCS)
-- Screenshot: Flameshot and LibreOffice Draw
-- Data Preparation: Google Sheets
-- Version Control: Git & GitHub repo TheInternetTesting
+- **Test Case Management:** TestRail
+- **Defect Tracking:** GitHub Issues
+- **Editor:** Visual Studio Code (VCS)
+- **Screenshot:** Flameshot and LibreOffice Draw
+- **Data Preparation:** Google Sheets
+- **Version Control:** Git & GitHub ([TheInternetTesting](https://github.com/aleksa3009/TheInternetTesting) repository)
 
 ---
 
-## 8. Entry Criteria
-- Project directory structure created
-- Browsers and screenshot/editor tools installed
-- Access to TestRail and GitHub Issues
-- Test data files in `TestData/`
-- Templates for test cases and defect reports available
+## 8. ✅ Entry Criteria
+
+The testing process will begin when the following conditions are met: 
+- Project directory structure is created and organized
+- Google Chrome (v137.0.7151.103), Mozilla Firefox (v139.0.4), and screenshot/editor tools (Flameshot, LibreOffice Draw) are installed and verified
+- Access to TestRail (for test case management) and GitHub Issues (for defect tracking) is confirmed
+- Required test data files are available and validated in `TestData/`
+- Templates for test cases and defect reports are prepared and ready to use
 
 ---
-## 9. Exit Criteria
+
+## 9. ✅ Exit Criteria
+
 **Module-Level Exit:**
 - All test cases executed (PASS/FAIL recorded)
-- Defecs logged with steps, screenshots, environment details
-- Exploratory session completed and documened
-- Daily summary report generated
+- Defecs logged with clear reproduction steps, screenshots, environment details
+- Exploratory testing session completed and documened
+- Daily summary report generated and reviewed
 
 **Project-Level Exit:**
-- All modules meet exit criteria
-- Final test summary report completed, reviewed and approved
-- Artifacts archived in `Reports/`
+- All modules satisfy exit criteria
+- Final comprehensive test summary report completed, reviewed, and approved
+- All test artifacts and reports archived in `Reports/`
 
 ---
 
