@@ -248,3 +248,20 @@ The testing process will begin when the following conditions are met:
 |Create GitHub README with project description and links           |1 hour    |
 |Prepare screenshots for portfolio (upload to Imgur or GitHub)     |1 hour    |
 |Add project to CV with description of activities and technologies |1 hour    |
+
+## 13. 📂 Initial Project Directory Structure
+
+```bash
+TheInternetTesting/
+├── TestPlan/
+│   └── Test_Plan.md
+├── TestCases/
+│   └── FileUpload_Test_Cases_Screenshots/
+├── TestData/
+│   └── sample_files/
+├── ExecutionResults/
+│   └── Screenshots/
+├── Reports/
+│   └── Daily_Report_DD-MM-YYYY.md
+└── README.md
+```
