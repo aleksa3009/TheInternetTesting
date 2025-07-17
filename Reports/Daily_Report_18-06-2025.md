@@ -3,7 +3,7 @@
 ## Activities:
 - Executed 15 File Upload test cases on Chrome
   - 10 PASS
-  - 5 FAIL (screenshots saved in `ExecutionResults/screenshots/`)
+  - 5 FAIL (screenshots saved in `ExecutionResults/Screenshots/`)
 - Performed 35 minutes of exploratory testing
 - Found 2 additional unexpected behaviors
 - Logged 5 bugs in GitHub Issues (`#2`, `#3`, `#4`, `#5`, `#6`)
@@ -31,6 +31,6 @@
 - GitHub Issue IDs: `#2`, `#3`, `#4`, `#5`, `#6`
 
 ## Next Steps:
-- Execute File Upload test cases on **Firefox**
+- Execute the same 15 File Upload test cases on **Firefox**
 - Continue logging bugs (target: 8 total)
 - Write `Daily_Report_19-06-2025.md`
