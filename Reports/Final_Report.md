@@ -9,7 +9,9 @@
 
 ## 1. Introduction
 
-This report summarizes the comprehensive manual testing effort carried out against five critical UI modules of the publicly available demo site **The Internet**. Over a five-day period, a structured approach to functional, boundary, negative, positive and exploratory testing was employed, leveraging both Chrome and Firefox browsers, detailed documentation, and industry-standard tools to ensure quality and consistency.
+This report outlines a structured manual testing initiative conducted on five critical UI modules of the public demo site **The Internet**. Over the course of six working days, the project applied a combination of functional, boundary, negative, positive and exploratory testing approaches. Cross-browser validation was performed using Chrome and Firefox, with all activities documented in a professional and reproducible format using industry-standard tools.
+
+**Note:** This is a personal portfolio project. A few of the reported bugs were intentionally fabricated to demonstrate defect documentation and reporting skills.
 
 ---
 
