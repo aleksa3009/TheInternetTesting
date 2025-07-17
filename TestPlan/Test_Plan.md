@@ -60,40 +60,42 @@ The primary objectives of this test plan are to:
 
 ---
 
-## 4. Roles and Responsibilities
-|Role       |Name                   | Responsibility                     |
-|-----------|-----------------------|------------------------------------|
-|Tester     |Aleksa Aleksić         |Drafting test plan, creating and executing test cases, logging results, raising defects|
-|Stakeholder|Self / Development Team|Reviewing and triaging defect reports  |
-|Reviewer   |Self / QA Mentor       |Providing feedback on test artifacts and final reports|
+## 4. 👥 Roles and Responsibilities
+
+| Role       | Name                   | Responsibility                     |
+|------------|------------------------|------------------------------------|
+| Tester     | Aleksa Aleksić          | Drafting test plan, creating and executing test cases, logging results, raising defects|
+| Stakeholder| Self / Development Team | Reviewing and triaging defect reports  |
+| Reviewer   | Aleksa Aleksić          | Providing feedback on test artifacts and final reports|
 
 ---
 
-## 5. Test Items
+## 5. 📦 Test Items
+
 |Module Name     | Description                                                     |
 |----------------|-----------------------------------------------------------------|
-|File Upload     |Upload various file types and sizes, test positive/negative flows|
-|Dynamic Controls|Enable/disable input fields ad add/remove checkboxes             |
-|Checkboxes      |Select/deselect one or multiple checkboxes, rapid toggles        |
-|Context Menu    |Trigger and handle right-click context menu alerts               |
-|Broken Images   |Verify count and alt text of broken images, scroll behavior      |
+| File Upload     | Upload various file types and sizes; test positive/negative flows|
+| Dynamic Controls| Verify enable/disable functionality of input fields and adding/removing checkboxes             |
+| Checkboxes      | Select/deselect one or multiple checkboxes; test rapid toggling        |
+| Context Menu    | Trigger and handle right-click context menu alerts               |
+| Broken Images   | Verify count and alt text of broken images, scroll behavior      |
 
 ---
 
-## 6. Test Approach and Strategy
+## 6. 🛠️ Test Approach and Strategy
 1. **Test Types:** Functional, boundary, negative, exploratory
 2. **Test Design:** 
    - Risk-based prioritization to focus on high-impact and high-likelihood cases
-   - Detailed, step-by-step test cases in TestRail
+   - Detailed, step-by-step test cases documented in TestRail
 3. **Execution Order:**
    1. File Upload
    2. Dynamic Controls
    3. Checkboxes
    4. Context Menu
    5. Broken Images
-4. **Cross-Browser:** All tests on latest Google Chrome and latest Mozilla Firefox
-5. **Defect Reporting:** Log defects in GitHub Issues with template fields
-6. **Time Tracking:** Record start/end times for each test case and exploratory session
+4. **Cross-Browser:** All tests executed on latest versions of Google Chrome and Mozilla Firefox
+5. **Defect Reporting:** Defects are logged in GitHub Issues using predefined templates for consistency and completeness
+6. **Time Tracking:** Start and end times are recorded for each test case exeuction and exploratory testing session
 
 ---
 
