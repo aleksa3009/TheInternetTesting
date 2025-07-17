@@ -20,7 +20,7 @@ This report outlines a structured manual testing initiative conducted on five cr
 **Scope:**
 
 - Functional verification of modules: File Upload, Dynamic Controls, Checkboxes, Context Menu, Broken Images
-- Cross-browser coverage (Chrome 137.0.7151.103, 137.0.7151.119; Firefox 139.0.4)
+- Cross-browser testing on latest stable versions: Chrome (137.0.7151.103, 137.0.7151.119), Firefox (139.0.4)
 - Exploratory sessions targeting asynchronous behaviors and UI stability
 - Documentation of 38 test cases, execution logs, defect reports, and daily summaries
 
@@ -41,17 +41,17 @@ This report outlines a structured manual testing initiative conducted on five cr
 
 **Browsers:**
 
-- Google Chrome 137.0.7151.119
-- Mozilla Firefox 139.0.4
+- **Google Chrome:** 137.0.7151.103 & 137.0.7151.119
+- **Mozilla Firefox:** 139.0.4
 
 **Tools & Frameworks:**
 
-- Test Case Management: TestRail
-- Bug Tracking: GitHub Issues
-- Editor: VS Code
-- Screenshots: LibreOffice Draw / Flameshot
-- Data Preparation: LibreOffice Calc / Google Sheets
-- Version Control: Git & GitHub
+- **Test Case Management:** TestRail
+- **Bug Tracking:** GitHub Issues
+- **Editor:** VS Code
+- **Screenshots:** LibreOffice Draw / Flameshot
+- **Data Preparation:** LibreOffice Calc / Google Sheets
+- **Version Control:** Git & GitHub
 
 ---
 
