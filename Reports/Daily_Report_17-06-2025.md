@@ -1,10 +1,10 @@
 # Daily Report – Day 1 (17-06-2025)
 
 **Activities:**  
-- Written the Test Plan (`TestPlan/Test_Plan.md`) including scope, objectives, roles, risks, browsers, tools, and entry/exit criteria.  
-- Prepared test data files in the `TestData/` folder: `small.txt`, `image.jpg`, `sample.pdf`, `5MB.zip`, `6MB.zip`, `10MB.zip `dangerous.exe`, and a file with 255 characters in its name.  
+- Wrote the Test Plan (`TestPlan/Test_Plan.md`) including scope, objectives, roles, risks, browsers, tools, and entry/exit criteria.  
+- Prepared test data files in the `TestData/` folder: `small.txt`, `image.jpg`, `sample.pdf`, `5MB.zip`, `6MB.zip`, `10MB.zip`, `dangerous.exe`, and a file with a 255-character name.  
 - Created 15 File Upload test cases in TestRail.  
-- Organized testing tools: TestRail, GitHub Issues, LibreOffice Draw, Flameshot.  
+- Set up testing tools: TestRail, GitHub Issues, LibreOffice Draw, Flameshot.  
 
 **Environment:**  
 - Operating System: Ubuntu 22.04. LTS  
