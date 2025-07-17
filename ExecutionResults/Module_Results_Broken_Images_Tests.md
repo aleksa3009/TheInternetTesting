@@ -91,7 +91,7 @@ _(Executed on: 21-06-2025)_
 
 ## Summary
 
-- Total Test Cases: 8
+- Total Test Cases Executed: 8 (4 on Chrome, 4 on Firefox)
 - Passed: 6
-- Failed: 2 (Broken image shows a broken icon without alt text)
+- Failed: 2 (Same failure in both browsers)
 - Key Defect: BI_03 – Broken image alt text is empty.
