@@ -1,44 +1,62 @@
-# Test Plan: The Internet - Manual Testing of Core UI Modules
+# 📄 Test Plan: The Internet - Manual Testing of Core UI Modules
 
+**Version:** 2.0
 **Author:** Aleksa Aleksić
-**Date:** 17.6.2025.
-**Project:** The Internet UI Manual Testing
-**Base URL:** [https://the-internet.herokuapp.com] (https://the-internet.herokuapp.com)
+**Date:** 17.06.2025.
+**Project Name:** The Internet UI Functional Verification
+**Base URL:** [https://the-internet.herokuapp.com](https://the-internet.herokuapp.com)
+**Changelog:**  
+- 2.0 – 17.07.2025. – Major revision: Added traceability, updated scope and exit criteria.
+---
+
+## 1. 📘 Introduction
+This document serves as a formal test plan for the manual verification of five core user interface (UI) modules of the public demonstration website [The Internet](https://the-internet.herokuapp.com).
+
+It defines the overall **testing strategy, scope, required resources and execution schedule** for this project. The primary objectives are to ensure:
+- Systematic functional validation of key modules
+- Timely identification of potential risks and defects
+- Accurate and documented defect reporting. 
+
+The resulting documentation is intended to demonstrate a structured and professional approach to quality assurance, suitable for inclusion in a QA portfolio.
 
 ---
 
-## 1. Introduction
-This document serves as a formal test plan for the manual verification of five core user interface (UI) modules of the public demonstration website "The Internet". It defines the overall testing strategy, scope, required resources and execution schedule. The primary objectives are to ensure systematic functional validation, timely identification of potential risks and accurate defect reporting. The resulting documentation is intended to demonstrate a structured and professional approach to quality assurance, suitable for inclusion in a QA portfolio.
+## 2. 🎯 Scope
 
----
-
-## 2. Scope
+This test plan covers the **manual functional testing** of selected UI modules on [The Internet](https://the-internet.herokuapp.com) website, reflecting the actual testing performed during the project. The scope includes:
 
 **In Scope:**
 - Functional manual testing of the following modules:
-  - File Upload
-  - Dynamic Controls
-  - Checkboxes
-  - Context Menu
-  - Broken Images
-- Boundary Value Analysis and negative testing for data limits and error conditions
-- Cross-browser verification (Google Chrome, Mozilla Firefox)
+  - **File Upload**
+  - **Dynamic Controls**
+  - **Checkboxes**
+  - **Context Menu**
+  - **Broken Images**
+- Boundary Value Analysis (BVA) and negative testing for data limits and error conditions
+- Cross-browser verification (Google Chrome and Mozilla Firefox)
 - Exploratory testing sessions to uncover unexpected behaviors
-- Documentation of results, logs, defects
+- Documentation of results, logs, and defects
 
 **Out of Scope**
 - Accessibility compliance testing beyond verifying alt text on broken images
-- Performance, load or security testing
+- Performance, load, or security testing
 - Automated test scripts or API testing
+
+**Traceability:**
+All test cases and defects are tracked using TestRail and GitHub Issues, ensuring clear linkage between requirements, test executions and reported bugs.
 
 ---
 
-## 3. Objectives
-- Validate that each UI module meets its functional requirements
-- Identify and document efects with clear reproduction steps
+## 3. 🎯 Objectives
+
+The primary objectives of this test plan are to: 
+
+- Validate that each selected UI module meets its specified functional requirements
+- Identify and document defects with clear reproduction steps and relevant evidence
 - Ensure boundary conditions and error handling are correctly implemented
+- Perform cross-browser testing to confirm consistent behavior on supported browsers
 - Produce a complete set of test artifacts (plans, cases, logs, defect reports, summaries)
-- Demonstrate proficiency in industry-standard manual testing workflows
+- Demonstrate a professional approach to manual testing suitable for portfolio presentation
 
 ---
 
