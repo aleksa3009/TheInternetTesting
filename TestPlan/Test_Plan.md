@@ -139,7 +139,8 @@ The testing process will begin when the following conditions are met:
 
 ---
 
-## 10. Risks and Mitigation
+## 10. ⚠️ Risks and Mitigation
+
 |Risk                                   |Likelihood|Impact|Priority|Mitigation                                         |
 |---------------------------------------|----------|------|--------|---------------------------------------------------|
 |Uploading files >5MB may be blocked    |Medium    |High  |High    |Test boundary sizes; verify error messages         |
@@ -149,7 +150,8 @@ The testing process will begin when the following conditions are met:
 
 ---
 
-## 11. Deliverables
+## 11. 📦 Deliverables
+
 - Test Plan Document (`TestPlan/Test_Plan.md`)
 - Test Case Suite in TestRail (38 cases)
 - Test Data files in `TestData/`
