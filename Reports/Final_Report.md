@@ -37,7 +37,7 @@ This report outlines a structured manual testing initiative conducted on five cr
 
 **Hardware & OS:**
 
-- Ubuntu 22.04 LTS
+- **Ubuntu:** 22.04 LTS
 
 **Browsers:**
 
