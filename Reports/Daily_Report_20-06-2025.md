@@ -2,7 +2,7 @@
 
 ## Activities:
 - Executed 14 test cases on **Dynamic Controls** and **Checkboxes** modules using Chrome  
-  - **Dynamic Controls:** 9 TC total → 6 PASS, 3 FAIL (screenshots in `ExecutionResults/screenshots/`)  
+  - **Dynamic Controls:** 9 TC total → 6 PASS, 3 FAIL (screenshots in `ExecutionResults/Screenshots/`)  
   - **Checkboxes:** 5 TC total → 4 PASS, 1 FAIL  
 - Performed 40 minutes of exploratory testing  
 - Found 3 unexpected behaviors (2 in Dynamic Controls, 1 in Checkboxes)  
