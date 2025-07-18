@@ -90,14 +90,14 @@ TheInternetTesting/
 
 1. **Day 0:** Folder setup, tool installation, GitHub repo initialization
 2. **Day 1:** Write Test Plan; prepare `TestData`; design 15 File Upload test cases
-3. **Day 2:** Execute File Upload on Chrome; exploratory session; log 5 bugs
+3. **Day 2:** Execute File Upload on Chrome; exploratory testing session; log 5 bugs
 4. **Day 3:** Execute File Upload on Firefox; retest; log additional bugs; daily report
-5. **Day 4:** Create & execute Dynamic Controls & Checkboxes tests; retest; log 4 bugs
-6. **Day 5:** Create & execute Context Menu & Broken Images tests; exploratory; log 4 bugs
+5. **Day 4:** Create and execute Dynamic Controls & Checkboxes tests; retest; log 4 bugs
+6. **Day 5:** Create and execute Context Menu & Broken Images tests; exploratory testing sessions; log 4 bugs
 7. **Day 6:** Final verification of execution results, bug cleanup, begin Final Report
 8. **Day 7:** Complete Final Report; prepare portfolio README; craft CV entry
 
-**Daily Reports** document execution details and exploratory findings, located in `Reports/`.
+**Daily Reports** document execution details and exploratory findings, located in `Reports/` directory.
 
 ---
 
