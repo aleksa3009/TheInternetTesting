@@ -153,21 +153,21 @@ Test case templates included:
 
 ## 9. Lessons Learned & Recommendations
 
-1. **Explicit waits** for async UI actions reduce flakiness.
-2. **Form resets** and disable states improve UX clarity.
-3. **Debounce user actions** to prevent race conditions.
-4. **Enforce alt text** for all images – accessibility first.
-5. **Consistent test documentation** ensures reproducibility.
+1. Implementing **explicit waits** for async UI actions significantly reduces test flakiness and improves overall reliability of manual testing workflows.
+2. Ensuring **form resets behavior** and clearly defined **disabled/enabled states** enhances UX clarity and minimizes user errors.
+3. Applying **debounce logic** to user-triggered actions (e.g. double-clicks, rapid submissions) helps prevent race conditions and inconsistent UI states.
+4. Enforcing the use of **alt text for all images** promotes accessibility and improves semantic HTML structure, benefiting both usability and compliance..
+5. Maintaining **consistent, detailed, and traceable test documentation** improves reproducibility, simplifies debugging, and strengthens team communication.
 
 ---
 
 ## 10. Conclusion
 
-This project delivers a robust demonstration of manual testing practices, producing a full suite of test artifacts, uncovering 16 defects, and providing actionable recommendations.
+This project presents a strong demonstration of manual testing practices, resulting in a complete suite of test artifacts, the indentification of 16 defects, and actionable QA recommendations.
 
-The work reflects practical QA skills relevant to entry-level roles, such as designing boundary and negative test scenarios, analyzing response structures etc. Additionally, the combination of exploratory and structured testing led to the discovery of multiple non-obvious defects.
+It showcases practical skills relevant to QA entry-level roles, such as designing boundary and negative test scenarios, analyzing response structures etc. The combination of exploratory and structured testing led to the discovery of multiple non-obvious defects.
 
-All findings and artifacts were documented transparently to provide traceability and reproducibility. This project serves as a meaningful and independent portfolio example, showcasing readiness for real-world manual QA responsibilities.
+All findings were documented transparently to provide traceability and reproducibility. This project serves as a meaningful and independent portfolio example, showcasing readiness for real-world manual QA responsibilities.
 
 ---
 
