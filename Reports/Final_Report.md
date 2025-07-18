@@ -129,25 +129,33 @@ Test case templates included:
 
 **Defects by Severity:**
 
-- **High:** 6 (race conditions, premature input, drag-and-drop failure)
-- **Medium:** 7 (silent upload failures, unexpected alerts, missing alt text)
-- **Low:** 4 (UI flicker, layout minor issues)
+- **High:** (4)
+  -  Rrace conditions in dynamic controls 
+  -  Premature input acceptance before UI state is ready 
+  -  Drag-and-drop area fails to handle unsupported files gracefully
+- **Medium:** (8) 
+  - Silent upload failures with no error feedback 
+  - Unexpected alert pop-ups disrupting user flow
+  - Missing alt attributes impacting accessibility
+- **Low:** (4) 
+  - Minor UI flickering during transitions 
+  - Inconsistent spacing and layout on form elements
 
-**Root Causes:**
+**Root Cause Summary:**
 
-- Asynchronous operations not synchronized (Dynamic Controls, drag-and-drop)
-- Missing UI feedback for invalid actions (upload button, file size)
-- Accessibility oversights (missing alt attributes)
+- **Improper synchronization** of asynchronous operations, particularly in dynamic controls and file handling modules
+- **Lack of user feedback** for invalid or edge-case (e.g. uploading large files, double-triggered UI elements)
+- **Accessibility oversights**, such as missing semantic attributes (alt) in image-based components
 
 ---
 
 ## 8. Exploratory Testing Highlights
 
-1. **Upload button remains enabled** after successful upload – potential UX trap.
-2. **Rapid toggles** cause multiple overlapping status messages.
-3. **Drag-and-drop** area gives no feedback when unsupported.
-4. **Context menu** sometimes fails if double-clicked.
-5. **Broken images** second image lacking alt text breaks accessibility.
+1. **Upload button remains enabled** after a successful file upload - this may mislead users into thinking another upload is required or still in progress.
+2. **Rapid toggling of dynamic controls** causes multiple overlapping status messages, leading to visual clutter and possible confusion..
+3. **Drag-and-drop area lacks feedback** when unsupported file types or methods are used - users receive no indication of failure or limitations.
+4. **Context menu intermittenly fails** when triggered via double-click instead of right-click - a poential usability inconsistency.
+5. **Broken images module missing alt text** for the second image - this violates accessibility standards and hinders screen reader support.
 
 ---
 
