@@ -152,24 +152,23 @@ TheInternetTesting/
 
 ## Key Recommendations
 
-1. Implement **explicit wait** and **disable UI** during asynchronous operations.
-2. Provide **clear feedback** on invalid user actions (e.g., empty upload, failed drop).
-3. Debounce rapid user inputs to avoid race conditions.
-4. Enforce **accessibility** by always including meaningful `alt` attributes.
-5. Consolidate logs and use **consistent commit messages** for traceability.
+1. Implement **explicit wait mechanisms** and **disable UI elements** during asynchronous operations to prevent user confusion and flakiness.
+2. Provide **clear and immediate feedback** for invalid user actions (e.g., empty file upload attempts, unsupported drag-and-drop).
+3. Apply **input debouncing** techniques to mitigate race conditions caused by rapid user interactions.
+4. Enforce strict **accessibility standards** by ensuring all images have meaningful `alt` attributes.
+5. Consolidate logs and maintain **consistent commit messages** to improve traceability and maintainability of test artifacts.
 
 ---
 
 ## Conclusion
 
-This project illustrates a structured manual QA approach, delivering:
+This manual testing project successfully demonstrates a comprehensive QA lifecycle applied to the “The Internet” demo site. Through meticulous planning, test case design, and cross-browser execution, a broad spectrum of functional, boundary, and exploratory tests were conducted across five critical UI modules.
 
-- Detailed planning artifacts
-- Comprehensive test suites and execution logs
-- 16 actionable defect reports with reproducible steps
-- Professional daily and final reporting
+A total of 16 defects were identified, analyzed, and documented with clear reproduction steps, screenshots, and severity classifications. The combination of structured test cases and exploratory sessions uncovered both expected and non-obvious issues, showcasing practical testing skills relevant for junior QA roles.
 
-The documented process and artifacts form a strong portfolio demonstration of manual testing competencies for a junior QA role.
+The project artifacts — including detailed test plans, execution results, daily and final reports — provide clear traceability and professional standards in QA documentation. This work not only validates the application under test but also serves as a strong portfolio example illustrating readiness for real-world manual testing responsibilities.
+
+**Note:** This is a personal portfolio project. A few of the reported bugs were intentionally fabricated to demonstrate defect documentation and reporting skills.
 
 ---
 
