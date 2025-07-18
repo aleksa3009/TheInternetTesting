@@ -111,7 +111,7 @@ TheInternetTesting/
 | Context Menu     | 5        | Chrome, Firefox | 8    | 2    | 2           | 30                |
 | Broken Images    | 4        | Chrome, Firefox | 6    | 2    | 2           | 45                |
 
-- **Total TC Executed:** 38 per browser (62 runs)
+- **Total TC Executed:** 38 test cases executed across Chrome and Firefox (62 total runs)
 - **Total Bugs Reported:** 16
 - **Average Duration per TC:** \~10 minutes
 
@@ -119,19 +119,19 @@ TheInternetTesting/
 
 ## Defect Analysis & Trends
 
-**High Severity:**
+**High Severity Defects:**
 
 - Race conditions in Dynamic Controls (DC\_06)
 - Premature input acceptance (DC\_08)
 - Drag-and-drop failures (FU\_012)
 
-**Medium Severity:**
+**Medium Severity Defects:**
 
 - Silent file upload failures (FU\_07, FU\_09)
 - Unexpected alerts (CM\_04)
 - Missing alt text on broken images (BI\_03)
 
-**Low Severity:**
+**Low Severity Defects:**
 
 - UI flicker during control transitions
 - Checkbox hitbox issues
