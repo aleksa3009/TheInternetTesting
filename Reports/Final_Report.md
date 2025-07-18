@@ -94,17 +94,23 @@ This report outlines a structured manual testing initiative conducted on five cr
 
 ## 5. Test Case Coverage
 
-A total of **38 test cases** were designed and executed per module:
+A total of **38 test cases** were designed and executed accross key functional modules:
 
-- **File Upload:** 15 cases
-- **Dynamic Controls:** 9 cases
-- **Checkboxes:** 5 cases
-- **Context Menu:** 5 cases
-- **Broken Images:** 4 cases
+- **File Upload:** 15 test cases covering valid, invalid, edge-case and boundary scenarios
+- **Dynamic Controls:** 9 test cases verifying asynchronous behavior and element state changes
+- **Checkboxes:** 5 test cases focusing on selection logic and default states
+- **Context Menu:** 5 test cases validating right-click behavior and alert handling
+- **Broken Images:** 4 test cases inspecting image loading and accessibility compliance
 
-Test case templates included:
+All test cases followed a consistent template structure, including:
 
-- **ID**, **Title**, **Preconditions**, **Test Steps**, **Expected Results**, **Type**, **Priority**
+- **Test CaseID**
+-  **Title** 
+-  **Preconditions** 
+-  **Test Steps**
+-  **Expected Results**
+-  **Type** (Functional, Negative, Boundary, UI) 
+-  **Priority** (High/ Medium/ Low)
 
 ---
 
@@ -113,7 +119,7 @@ Test case templates included:
 | Module           | Browser | TC | PASS | FAIL | Exploratory (min) | Bugs Logged |
 | ---------------- | ------- | -- | ---- | ---- | ----------------- | ----------- |
 | File Upload      | Chrome  | 15 | 10   | 5    | 15                | 5           |
-| File Upload      | Firefox | 15 | 13   | 2    | 15                | 3           |
+| File Upload      | Firefox | 15 | 12   | 3    | 15                | 3           |
 | Dynamic Controls | Chrome  | 9  | 6    | 3    | 30                | 3           |
 | Checkboxes       | Chrome  | 5  | 4    | 1    | 15                | 1           |
 | Context Menu     | Chrome  | 5  | 4    | 1    | 15                | 1           |
@@ -121,7 +127,12 @@ Test case templates included:
 | Context Menu     | Firefox | 5  | 4    | 1    | 15                | 1           |
 | Broken Images    | Firefox | 4  | 3    | 1    | 15                | 1           |
 
-**Total Execution Time:** \~24 hours **Total Bugs Logged:** 16
+**Total Execution Time:** ~24 hours
+**Total Test Cases Executed:** 62
+**Total Bugs Logged:** 16
+**Overall Pass Rate:** ~81%
+**Browsers Covered:** Chrome 137.0.7151.103 & 137.0.7151.119; Firefox 139.0.4
+**Test Types:** Functional, Negative, Exploratory, UI
 
 ---
 
