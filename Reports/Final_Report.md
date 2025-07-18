@@ -58,36 +58,49 @@ This report outlines a structured manual testing initiative conducted on five cr
 ## 4. Folder Structure & Artifacts
 
 ```
-~/TheInternetTesting/
-├── TestPlan/                   # Test planning documents
+TheInternetTesting/
+├── README.md
+├── TestPlan/
 │   └── Test_Plan.md
-├── TestCases/                  # TestRail exports
-│   ├── FileUpload_TC.xlsx
-│   ├── DynamicControls_TC.xlsx
-│   ├── Checkboxes_TC.xlsx
-│   ├── ContextMenu_TC.xlsx
-│   └── BrokenImages_TC.xlsx
-├── TestData/                   # Files used for File Upload testing
-│   ├── small.txt
-│   ├── image.jpg
-│   ├── sample.pdf
+├── TestData/
 │   ├── 5MB.zip
 │   ├── 6MB.zip
 │   ├── 10MB.zip
-│   └── dangerous.exe
-├── ExecutionResults/           # Execution logs and screenshots
-│   ├── Module_Results_File_Upload_Tests.md
-│   ├── Module_Results_Dynamic_Controls_Tests.md
-│   ├── Module_Results_Checkboxes_Tests.md
-│   ├── Module_Results_ContextMenu_BrokenImages_Tests.md
-│   └── screenshots/
-└── Reports/                    # Daily and Final reports
-    ├── Daily_Report_17-06-2025.md
-    ├── Daily_Report_18-06-2025.md
-    ├── Daily_Report_19-06-2025.md
-    ├── Daily_Report_20-06-2025.md
-    ├── Daily_Report_21-06-2025.md
-    └── Final_Report.md
+│   ├── aaa....txt
+│   ├── čšđć:,.txt
+│   ├── dangerous.exe
+│   ├── images.jpg
+│   ├── sample.pdf
+│   ├── small.txt
+│   └── README.md
+├── TestCases/
+│   ├── the_internet_testing - file_upload_test_cases.pdf
+│   ├── the_internet_testing - dynamic_controls_test_cases.pdf
+│   ├── the_internet_testing-context_menu_tests.pdf
+│   ├── the_internet_testing - checkboxes_test_cases.pdf
+│   ├── the_internet_testing-broken_images_test_cases.pdf
+│   ├── File_Upload_Test_Cases_Screenshots/
+│   ├── Dynamic_Controls_Test_Cases_Screenshots/
+│   ├── Context_Menu_Test_Cases_Screenshots/
+│   ├── Checkboxes_Test_Cases_Screenshots/
+│   └── Broken_Images_Test_Cases_Screenshots/
+├── Reports/
+│   ├── Final_Report.md
+│   ├── Daily_Report_17-06-2025.md
+│   ├── Daily_Report_18-06-2025.md
+│   ├── Daily_Report_19-06-2025.md
+│   ├── Daily_Report_20-06-2025.md
+│   ├── Daily_Report_21-06-2025.md
+│   └── Daily_Report_22-06-2025.md
+└── ExecutionResults/
+    ├── Bug_Retest_21-06-2025.md
+    ├── Module_Results_Broken_Images_Tests.md
+    ├── Module_Results_Checkboxes_Tests.md
+    ├── Module_Results_Context_Menu_Tests.md
+    ├── Module_Results_Dynamic_Controls_Tests.md
+    ├── Module_Results_File_Upload_Tests.md
+    └── Screenshots/
+
 ```
 
 ---
