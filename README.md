@@ -17,46 +17,56 @@ This repository demonstrates a full manual QA cycle, from planning to final repo
 
 **Project Timeline:** 17-06-2025 to 23-06-2025
 
+This project simulates real-world QA workflows to showcase practical manual testing skills applicable for junior QA roles.
+
 ---
 
 ## Repository Structure
 
-```  
+```
 TheInternetTesting/
-├── TestPlan/                   # Detailed Test Plan and schedule
-│   └── Test_Plan.md            # Scope, Objectives, Roles, Risks, Environment, Schedule
-├── TestCases/                  # Test case definitions
-│   ├── the_internet_testing-file_upload_test_cases.pdf        # 15 TC covering upload flows
-│   ├── the_internet_testing-checkboxes_test_cases.pdf         # 9 TC focusing on enable/disable and race conditions
-│   ├── the_internet_testing-dynamic_controls_test_cases.pdf   # 5 TC for selection stability
-│   ├── the_internet_testing-context_menu_tests.pdf            # 5 TC for right-click behavior
-│   ├── the_internet_testing-broken_images_test_cases.pdf      # 4 TC for image load states
-|   └── 
-├── TestData/                   # Files used in File Upload tests
-│   ├── small.txt
-|   ├── aaaaaaaaaaaaaaaaaaaaaaa...txt
-│   ├── čšđč.txt
-│   ├── image.jpg
-│   ├── sample.pdf
+├── README.md
+├── TestPlan/
+│   └── Test_Plan.md
+├── TestData/
 │   ├── 5MB.zip
 │   ├── 6MB.zip
-│   ├── 10MB.zip 
-│   └── dangerous.exe
-├── ExecutionResults/           # Execution logs and evidence
-│   ├── Module_Results_File_Upload_Tests.md
-│   ├── Module_Results_Dynamic_Controls_Tests.md
-│   ├── Module_Results_Checkboxes_Tests.md
-│   ├── Module_Results_ContextMenu_Tests.md
-|   ├── Module_Results_BrokenIMages_Tests.md
-│   └── Screenshots/            # All FAIL-case screenshots
-└── Reports/                    # Daily & Final reports
-    ├── Daily_Report_17-06-2025.md
-    ├── Daily_Report_18-06-2025.md
-    ├── Daily_Report_19-06-2025.md
-    ├── Daily_Report_20-06-2025.md
-    ├── Daily_Report_21-06-2025.md
-    ├── Daily_Report_22-06-2025.md
-    └── Final_Report.md         # Comprehensive summary
+│   ├── 10MB.zip
+│   ├── aaa....txt
+│   ├── čšđć:,.txt
+│   ├── dangerous.exe
+│   ├── images.jpg
+│   ├── sample.pdf
+│   ├── small.txt
+│   └── README.md
+├── TestCases/
+│   ├── the_internet_testing - file_upload_test_cases.pdf
+│   ├── the_internet_testing - dynamic_controls_test_cases.pdf
+│   ├── the_internet_testing-context_menu_tests.pdf
+│   ├── the_internet_testing - checkboxes_test_cases.pdf
+│   ├── the_internet_testing-broken_images_test_cases.pdf
+│   ├── File_Upload_Test_Cases_Screenshots/
+│   ├── Dynamic_Controls_Test_Cases_Screenshots/
+│   ├── Context_Menu_Test_Cases_Screenshots/
+│   ├── Checkboxes_Test_Cases_Screenshots/
+│   └── Broken_Images_Test_Cases_Screenshots/
+├── Reports/
+│   ├── Final_Report.md
+│   ├── Daily_Report_17-06-2025.md
+│   ├── Daily_Report_18-06-2025.md
+│   ├── Daily_Report_19-06-2025.md
+│   ├── Daily_Report_20-06-2025.md
+│   ├── Daily_Report_21-06-2025.md
+│   └── Daily_Report_22-06-2025.md
+└── ExecutionResults/
+    ├── Bug_Retest_21-06-2025.md
+    ├── Module_Results_Broken_Images_Tests.md
+    ├── Module_Results_Checkboxes_Tests.md
+    ├── Module_Results_Context_Menu_Tests.md
+    ├── Module_Results_Dynamic_Controls_Tests.md
+    ├── Module_Results_File_Upload_Tests.md
+    └── Screenshots/
+
 ```
 
 ---
