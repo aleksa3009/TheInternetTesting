@@ -150,13 +150,13 @@ TheInternetTesting/
 
 ---
 
-## Key Recommendations
+## 9. Lessons Learned & Recommendations
 
-1. Implement **explicit wait mechanisms** and **disable UI elements** during asynchronous operations to prevent user confusion and flakiness.
-2. Provide **clear and immediate feedback** for invalid user actions (e.g., empty file upload attempts, unsupported drag-and-drop).
-3. Apply **input debouncing** techniques to mitigate race conditions caused by rapid user interactions.
-4. Enforce strict **accessibility standards** by ensuring all images have meaningful `alt` attributes.
-5. Consolidate logs and maintain **consistent commit messages** to improve traceability and maintainability of test artifacts.
+1. Implementing **explicit waits** for async UI actions significantly reduces test flakiness and improves overall reliability of manual testing workflows.
+2. Ensuring **form resets behavior** and clearly defined **disabled/enabled states** enhances UX clarity and minimizes user errors.
+3. Applying **debounce logic** to user-triggered actions (e.g. double-clicks, rapid submissions) helps prevent race conditions and inconsistent UI states.
+4. Enforcing the use of **alt text for all images** promotes accessibility and improves semantic HTML structure, benefiting both usability and compliance..
+5. Maintaining **consistent, detailed, and traceable test documentation** improves reproducibility, simplifies debugging, and strengthens team communication.
 
 ---
 
