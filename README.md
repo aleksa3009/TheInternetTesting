@@ -150,7 +150,7 @@ TheInternetTesting/
 
 ---
 
-## 9. Lessons Learned & Recommendations
+## Lessons Learned & Recommendations
 
 1. Implementing **explicit waits** for async UI actions significantly reduces test flakiness and improves overall reliability of manual testing workflows.
 2. Ensuring **form resets behavior** and clearly defined **disabled/enabled states** enhances UX clarity and minimizes user errors.
