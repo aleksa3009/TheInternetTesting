@@ -21,7 +21,7 @@
 **Steps:** Click “Enable” → Immediately type text before enable completes  
 **Result:** FAIL  
 **Actual:** Text "Test input" is lost  
-![Screenshot](/TheInternetTesting/ExecutionResults/Screenshots/DC_02_fail.png)  
+![Screenshot](./Screenshots/DC_02_fail.png)  
 **End Time:** 20-06-2025 11:42  
 **Environment:** Linux 22.04 LTS / Chrome 137.0.7151.119
 
@@ -59,7 +59,7 @@
 **Steps:** Rapidly click Enable/Disable multiple times  
 **Result:** FAIL  
 **Actual:** UI gets stuck in loading state; input field doesn’t stabilize  
-![Screenshot](/TheInternetTesting/ExecutionResults/Screenshots/DC_06_fail.png)  
+![Screenshot](./Screenshots/DC_06_fail.png)  
 **End Time:** 20-06-2025 12:09  
 **Environment:** Linux 22.04 LTS / Chrome 137.0.7151.119
 
@@ -79,7 +79,7 @@
 **Steps:** Click “Enable” → Type text instantly  
 **Result:** FAIL  
 **Actual:** Text field accepts keystrokes before it’s enabled  
-![Screenshot](/TheInternetTesting/ExecutionResults/Screenshots/DC_08_fail.png)  
+![Screenshot](./Screenshots/DC_08_fail.png)  
 **End Time:** 20-06-2025 12:23  
 **Environment:** Linux 22.04 LTS / Chrome 137.0.7151.119
 

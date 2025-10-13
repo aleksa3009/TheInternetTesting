@@ -39,7 +39,7 @@
 **Steps:** Click outside hotspot → Observe no alert  
 **Result:** FAIL  
 **Actual:** Unexpected alert appears when clicking outside hotspot  
-![Screenshot](/TheInternetTesting/ExecutionResults/Screenshots/CM_04_fail.png)  
+![Screenshot](./Screenshots/CM_04_fail.png)  
 **End Time:** 21-06-2025 11:52  
 **Environment:** Linux 22.04 LTS / Chrome 137.0.7151.119
 
@@ -92,7 +92,7 @@ _(Executed on: 21-06-2025)_
 **Steps:** Click outside hotspot → Observe no alert  
 **Result:** FAIL  
 **Actual:** Unexpected alert appears when clicking outside hotspot  
-![Screenshot](/TheInternetTesting/ExecutionResults/Screenshots/CM_04_fail_firefox.png)  
+![Screenshot](./Screenshots/CM_04_fail_firefox.png)  
 **End Time:** 21-06-2025 12:15  
 **Environment:** Linux 22.04 LTS / Firefox 139.0.4
 

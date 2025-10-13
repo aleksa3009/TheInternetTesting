@@ -30,7 +30,7 @@
 **Steps:** Choose `sample.pdf` → Upload  
 **Result:** FAIL  
 **Actual:** Page shows “Upload error: Unsupported file type.”  
-![Screenshot](/TheInternetTesting/ExecutionResults/Screenshots/FU_03_fail.png)  
+![Screenshot](./Screenshots/FU_03_fail.png)  
 **End Time:** 18-06-2025 10:05  
 **Environment:** Linux 22.04 LTS / Chrome 137.0.7151.103
 
@@ -68,7 +68,7 @@
 **Steps:** Choose `aaaaaaaa…(255 chars)` → Upload  
 **Result:** FAIL  
 **Actual:** Form field clears selection without error message.  
-![Screenshot](/TheInternetTesting/ExecutionResults/Screenshots/FU_07_fail.png)  
+![Screenshot](./Screenshots/FU_07_fail.png)  
 **End Time:** 18-06-2025 10:51  
 **Environment:** Linux 22.04 LTS / Chrome 137.0.7151.103
 
@@ -88,7 +88,7 @@
 **Steps:** Choose `10MB.zip` → Upload  
 **Result:** FAIL  
 **Actual:** System accepts file.  
-![Screenshot](/TheInternetTesting/ExecutionResults/Screenshots/FU_09_fail.png)  
+![Screenshot](./Screenshots/FU_09_fail.png)  
 **End Time:** 18-06-2025 11:23  
 **Environment:** Linux 22.04 LTS / Chrome 137.0.7151.103
 
@@ -117,7 +117,7 @@
 **Steps:** Drag `small.txt` onto upload area  
 **Result:** FAIL  
 **Actual:** File is not detected when dropped into area. No feedback or error message shown.  
-![Screenshot](/TheInternetTesting/ExecutionResults/Screenshots/FU_12_fail.png)  
+![Screenshot](./Screenshots/FU_12_fail.png)  
 **End Time:** 18-06-2025 12:02  
 **Environment:** Linux 22.04 LTS / Chrome 137.0.7151.103
 
@@ -146,7 +146,7 @@
 **Steps:** Observe Upload button → Choose `small.txt`  
 **Result:** FAIL  
 **Actual:** Upload button is **enabled even before** any file is selected, allowing users to click it without selecting a file. No error message is shown.  
-![Screenshot](/TheInternetTesting/ExecutionResults/Screenshots/FU_15_fail.png)  
+![Screenshot](./Screenshots/FU_15_fail.png)  
 **End Time:** 18-06-2025 12:25  
 **Environment:** Linux 22.04 LTS / Chrome 137.0.7151.103
 
@@ -181,7 +181,7 @@ _(Executed on: 19-06-2025)_
 **Steps:** Choose `sample.pdf` → Upload  
 **Result:** FAIL  
 **Actual:** Page shows “Upload error: Unsupported file type.”  
-![Screenshot](/TheInternetTesting/ExecutionResults/Screenshots/FU_03_fail_firefox.png)  
+![Screenshot](./Screenshots/FU_03_fail_firefox.png)  
 **End Time:** 19-06-2025 09:24  
 **Environment:** Linux 22.04 LTS / Firefox 139.0.4
 
@@ -264,7 +264,7 @@ _(Executed on: 19-06-2025)_
 **Steps:** Drag `small.txt` onto upload area  
 **Result:** FAIL  
 **Actual:** File not detected, no feedback shown.  
-![Screenshot](/TheInternetTesting/ExecutionResults/Screenshots/FU_12_fail_firefox.png)  
+![Screenshot](./Screenshots/FU_12_fail_firefox.png)  
 **End Time:** 19-06-2025 10:43  
 **Environment:** Linux 22.04 LTS / Firefox 139.0.4
 
@@ -293,7 +293,7 @@ _(Executed on: 19-06-2025)_
 **Steps:** Observe Upload button → Choose `small.txt`  
 **Result:** FAIL  
 **Actual:** Upload button remains enabled without file selection.  
-![Screenshot](/TheInternetTesting/ExecutionResults/Screenshots/FU_15_fail_firefox.png)  
+![Screenshot](./Screenshots/FU_15_fail_firefox.png)  
 **End Time:** 19-06-2025 11:11  
 **Environment:** Linux 22.04 LTS / Firefox 139.0.4
 

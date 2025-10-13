@@ -48,7 +48,7 @@
 **Steps:** Click label area, margin, or empty space → Confirm checkbox doesn’t change  
 **Result:** FAIL 
 **Actual:** Checkbox state changed after clicking outside of the checkbox area  
-![Screenshot](/TheInternetTesting/ExecutionResults/Screenshots/CB_05_fail.png) 
+![Screenshot](./Screenshots/CB_05_fail.png) 
 **End Time:** 20-06-2025 13:02  
 **Environment:** Linux 22.04 LTS / Chrome 137.0.7151.119
 

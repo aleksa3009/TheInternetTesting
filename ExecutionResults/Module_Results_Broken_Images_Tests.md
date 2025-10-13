@@ -30,7 +30,7 @@
 **Steps:** Reload page → Count broken images  
 **Result:** FAIL  
 **Actual:** One previously broken image now displays a placeholder error icon instead of alt text  
-![Screenshot](/TheInternetTesting/ExecutionResults/Screenshots/BI_03_fail.png)  
+![Screenshot](./Screenshots/BI_03_fail.png)  
 **End Time:** 21-06-2025 12:34  
 **Environment:** Linux 22.04 LTS / Chrome 137.0.7151.119
 
@@ -74,7 +74,7 @@ _(Executed on: 21-06-2025)_
 **Steps:** Reload page → Count broken images  
 **Result:** FAIL  
 **Actual:** One broken image now shows a broken icon without alt text  
-![Screenshot](/TheInternetTesting/ExecutionResults/Screenshots/BI_03_fail_firefox.png)  
+![Screenshot](./Screenshots/BI_03_fail_firefox.png)  
 **End Time:** 21-06-2025 12:55  
 **Environment:** Linux 22.04 LTS / Firefox 139.0.4
 
