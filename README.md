@@ -171,5 +171,3 @@ The project artifacts — including detailed test plans, execution results, dail
 **Note:** This is a personal portfolio project. A few of the reported bugs were intentionally fabricated to demonstrate defect documentation and reporting skills.
 
 ---
-
-*End of README*
